@@ -2,8 +2,6 @@ import gradio as gr
 
 import sys
 from pathlib import Path
-
-# Ajoute la racine du projet au PYTHONPATH
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT_DIR))
 
